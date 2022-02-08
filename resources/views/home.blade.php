@@ -14,5 +14,10 @@
     @empty
         <div>Nessuna persona nella lista</div>
     @endforelse
+
+    <nav>
+        <a href="{{ route('about') }}">About us</a>
+        <a href="{{ route('products')}}">Our products</a>
+    </nav>
 </body>
 </html>

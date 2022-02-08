@@ -24,3 +24,12 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+Route::get('/about-us', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/products', function () {
+    return view('products');
+})->name('products');
+
